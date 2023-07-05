@@ -69,4 +69,4 @@ ADD_LIBRARY(VenusReadJsonPlugin MODULE ${VenusReadJson_SRCS} ${VenusReadJson_MOC
 
 target_link_libraries(VenusReadJsonPlugin Qt5::Core Qt5::Widgets Qt5::Script ${RTHLIBS_LIBRARIES}  ${LOG4CXX_LIBRARIES})
 
-INSTALL(TARGETS VenusReadJsonPlugin LIBRARY DESTINATION /mnt/script)
+INSTALL(TARGETS VenusReadJsonPlugin LIBRARY DESTINATION ~/HeartVista/script)
